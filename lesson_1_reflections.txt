@@ -1,0 +1,58 @@
+HOW DID VIEWING A DIFF BETWEEN TWO VERSIONS OF A FILE HELP YOU SEE
+THE BUG THAT WAS INTRODUCED?
+
+"diff -u old_file new_file" - compare two versions of a file.
+"-u" - unified diff format
+
+The lines in the old file that no longer existed in the new file
+had a "-" preceeding them, while lines present in the new file
+but not in the old file were preceeded by a "+"
+I examined the files preceeded by the "+", which meant they'd been
+changed, and found the typo
+
+
+HOW COULD HAVING EASY ACCESS TO THE ENTIRE HISTORY OF A FILE
+MAKE YOU A MORE EFFICIENT PROGRAMMER IN THE LONG TERM?
+
+Makes it easier to spot bugs after a file has been updated by comparing new file
+with an older version that worked
+
+
+WHAT DO YOU THINK ARE THE PROS AND CONS OF MANUALLY CHOOSING WHEN
+TO CREATE A COMMIT, LIKE YOU DO IN GIT,VS HAVING VERSIONS
+AUTOMATICALLY SAVED, LIKE GOOGLE DOCS DOES?
+
+Pro - allows you to have logical save points
+Pro - saved versions will always be compilable
+Pro - gives full control over number/frequency of version saves
+Con - might forget to commit
+Con - can be time consuming
+
+
+WHY DO YOU THINK VERSION CONTROL SYSTEMS, LIKE GIT, ALLOW SAVING
+MULTIPLE FILES IN ONE COMMIT, WHILE OTHERS, LIKE GOOGLE DOCS TREAT
+EACH FILE SEPARATELY?
+
+Multiple files are usually used in a single project which have
+elements common between them and have to interact with each other
+
+
+HOW CAN YOU USE THE COMMANDS "git log" AND "git diff" TO VIEW THE
+HISTORY OF FILES?
+
+"git log" - show commit history of a project
+"git diff <commit_id_old_version> <commit_id_new_version>" -
+compare two versions of a file with git
+
+
+HOW MIGHT USING VERSION CONTROL MAKE YOU MORE CONFIDENT TO MAKE
+CHANGES THAT COULD BREAK SOMETHING?
+
+Having the reassurance that you can easily go back to a previous
+version that worked before the change allows more risks to be taken
+
+
+NOW THAT YOU HAVE YOUR WORKSPACE SETUP, WHAT DO YOU WANT TO TRY
+USING GIT FOR?
+
+Building an app with react-native
