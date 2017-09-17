@@ -1,0 +1,9 @@
+WHAT HAPPENS WHEN YOU INITIALIZE A REPOSITORY? WHY DO YOU NEED TO DO IT?
+
+.git file is added to the directory. This is necessary so commmits can be
+created and files tracked.
+
+
+HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY? WHAT VALUE DO YOU THINK IT OFFERS?
+
+It tracks work in progress
