@@ -1,0 +1,46 @@
+TERMINAL COMMANDS
+
+"cd ~" - change directory to home directory
+"mkdir" - make a new directory
+"subl" - open sublime
+"subl lesson_0_reflections.txt" - open or create txt file with
+name as stated in sublime
+"pwd" - print working directory - shows what directory you're in
+"ls" - lists files in cwd
+"mv <old_path> <new_path>" - move file into different directory
+
+"<app_name> &disown" - open app uncoupled from controlling terminal
+
+"diff -u old_file new_file" - compare two versions of a file.
+-u - unified diff format
+
+
+GIT COMMANDS
+
+"git diff <commit_id_old_version> <commit_id_new_version>" -
+compare two versions of a file with git
+
+"git clone <url_of_github_repository>" - clone repo to a directory
+on own PC
+
+"git log" - show commit history of a project
+
+"git config" - change git settings
+
+"--global" - apply setting changes to all projects
+
+"git config --global color.ui auto" - add color to projects
+
+"git config --global core.editor "subl -n -w"" - make sublime
+default text editor for git
+
+"git checkout <commit_id>" - checkout an older commit
+
+"git init" - initialise a git repository in a directory, empty or otherwise
+
+"git status" - shows status of files in a git enabled directory
+
+"git add <file>" - add file to the staging area(area in which files to be
+committed go)
+
+"git reset <file>"/"git rm --cached <file>" - unstages file
