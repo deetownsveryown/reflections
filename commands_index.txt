@@ -43,4 +43,24 @@ default text editor for git
 "git add <file>" - add file to the staging area(area in which files to be
 committed go)
 
-"git reset <file>"/"git rm --cached <file>" - unstages file
+"git reset <file>" - unstages file
+
+"git rm --cached <file>" - removes file from repository
+
+"git diff" - compares working directory to staging area
+
+"git diff --staged" - compares staging area to most recent commit in
+repository
+
+"git checkout master" - reattaches HEAD to most recent commit
+
+"git branch" - shows all branches in repository and which one is currently
+checked out
+
+"git branch <name>" - creates new branch with name <name>
+
+"git checkout <branch_name>" - checks out branch
+
+"git log --graph <branch1> <branch2>" - visualises branch structure
+
+"git log --graph --oneline ..." - makes branch structure easier to read 
