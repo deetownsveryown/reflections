@@ -63,4 +63,13 @@ checked out
 
 "git log --graph <branch1> <branch2>" - visualises branch structure
 
-"git log --graph --oneline ..." - makes branch structure easier to read 
+"git log --graph --oneline ..." - makes branch structure easier to read
+
+"git merge <branch1> <branch2>" - while on a branch1, say master, this
+command merges branch2 into branch1
+
+"git show <commit_id>" - shows diff between commit and its parent (useful
+for when commits are interleved after merge)
+
+"git branch -d <branch>" - deletes branch, useful after merging branch into
+another
