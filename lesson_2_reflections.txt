@@ -6,4 +6,19 @@ created and files tracked.
 
 HOW IS THE STAGING AREA DIFFERENT FROM THE WORKING DIRECTORY AND THE REPOSITORY? WHAT VALUE DO YOU THINK IT OFFERS?
 
-It tracks work in progress
+Working directory shows the current status of files, repository is what
+contains the history of the files, while staging area is a snapshot of files
+to be added to the repository.
+
+HOW CAN YOU USE THE STAGING AREA TO MAKE SURE YOU HAVE ONE COMMIT PER
+LOGICAL CHANGE?
+
+By ensuring there is only one file in the staging area at any given time.
+
+WHAT ARE SOME SITUATIONS WHEN BRANCHES WOULD BE HELPFUL IN KEEPING YOUR HISTORY ORGANISED? HOW WOULD BRANCHES HELP?
+
+Branches would be useful when trying out experimental feature additions or
+creating a different language version of an application. Bracnhes would
+help because it keeps the experimental or divergent work separate from the
+main work so if the feature doesn't work, you can easily go back to the main
+branch.
