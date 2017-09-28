@@ -22,3 +22,8 @@ creating a different language version of an application. Bracnhes would
 help because it keeps the experimental or divergent work separate from the
 main work so if the feature doesn't work, you can easily go back to the main
 branch.
+
+HOW DO THE DIAGRAMS HELP YOU VISUALISE THE BRANCH STRUCTURE?
+
+They show the point at which a branch diverges from master and all the
+commits on the branch.
