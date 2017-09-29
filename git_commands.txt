@@ -1,0 +1,58 @@
+GIT COMMANDS
+
+"git diff <commit_id_old_version> <commit_id_new_version>" -
+compare two versions of a file with git
+
+"git clone <url_of_github_repository>" - clone repo to a directory
+on own PC
+
+"git log" - show commit history of a project
+
+"git config" - change git settings
+
+"--global" - apply setting changes to all projects
+
+"git config --global color.ui auto" - add color to projects
+
+"git config --global core.editor "subl -n -w"" - make sublime
+default text editor for git
+
+"git checkout <commit_id>" - checkout an older commit
+
+"git init" - initialise a git repository in a directory, empty or otherwise
+
+"git status" - shows status of files in a git enabled directory
+
+"git add <file>" - add file to the staging area(area in which files to be
+committed go)
+
+"git reset <file>" - unstages file
+
+"git rm --cached <file>" - removes file from repository
+
+"git diff" - compares working directory to staging area
+
+"git diff --staged" - compares staging area to most recent commit in
+repository
+
+"git checkout master" - reattaches HEAD to most recent commit
+
+"git branch" - shows all branches in repository and which one is currently
+checked out
+
+"git branch <name>" - creates new branch with name <name>
+
+"git checkout <branch_name>" - checks out branch
+
+"git log --graph <branch1> <branch2>" - visualises branch structure
+
+"git log --graph --oneline ..." - makes branch structure easier to read
+
+"git merge <branch1> <branch2>" - while on a branch1, say master, this
+command merges branch2 into branch1
+
+"git show <commit_id>" - shows diff between commit and its parent (useful
+for when commits are interleved after merge)
+
+"git branch -d <branch>" - deletes branch, useful after merging branch into
+another
