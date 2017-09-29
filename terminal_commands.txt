@@ -1,0 +1,19 @@
+TERMINAL COMMANDS
+
+"cd ~" - change directory to home directory
+"mkdir" - make a new directory
+"subl" - open sublime
+"subl lesson_0_reflections.txt" - open or create txt file with
+name as stated in sublime
+"pwd" - print working directory - shows what directory you're in
+"ls" - lists files in cwd
+"mv <old_path> <new_path>" - move file into different directory
+
+"<app_name> &disown" - open app uncoupled from controlling terminal
+
+"diff -u old_file new_file" - compare two versions of a file.
+-u - unified diff format
+
+"sudo pm-hibernate" - hibernate
+
+"sudo shutdown -r now" - restart
