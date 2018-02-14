@@ -56,3 +56,18 @@ for when commits are interleved after merge)
 
 "git branch -d <branch>" - deletes branch, useful after merging branch into
 another
+
+"git stash" - stash incomplete work from a branch to enable you to checkout a different branch
+
+"git stash apply" - apply stashed work after returning returning to the branch
+
+"git stash apply --index" - apply stashed work and reapply staged changes
+
+"git stash drop <stash_name>" - remove stash
+
+"git stash pop" - apply stash and remove it from stack
+
+"git config --global credential.helper cache" - set git to use the credential memory cache
+
+"git config --global credential.helper 'cache --timeout=3600'" - set the cache to timeout 
+after 1 hour (setting is in seconds)
